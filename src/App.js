@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Search getQuery={(value) => setQuery(value)}/>
+      <Search getQuery={(value) => setQuery(value)} />
       <CharacterGrid isLoading={isLoading} items={items} />
     </div>
   );
