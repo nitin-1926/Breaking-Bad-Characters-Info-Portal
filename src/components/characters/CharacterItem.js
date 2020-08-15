@@ -20,13 +20,13 @@ const CharacterItem = ({ item }) => {
               <strong>Birthday: </strong> {item.birthday}
             </li>
             <li>
-                <strong>Occupation: </strong><br></br> {item.occupation.map( occupation => (<label>{occupation} </label>) )}
+                <strong>Occupation: </strong><br></br> {item.occupation.map( (occupation,index) => (<label key={index}>{occupation} </label>) )}
             </li>
             <li>
               <strong>Status: </strong> {item.status}
             </li>
             <li>
-                <strong>Appearances: </strong><br></br> Season {item.appearance.map( season => (<label>{season} </label>) )}
+                <strong>Appearances: </strong><br></br> Season {item.appearance.map( (season,index) => (<label key={index}>{season} </label>) )}
             </li>
           </ul>
         </div>
