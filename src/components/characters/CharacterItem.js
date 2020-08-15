@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const CharacterItem = ({ item }) => {
   return (
@@ -32,7 +32,7 @@ const CharacterItem = ({ item }) => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default CharacterItem
+export default CharacterItem;
